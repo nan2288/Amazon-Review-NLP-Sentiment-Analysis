@@ -1,0 +1,7 @@
+Stopwords removed,text features,Accuracy (test set)
+no,unigrams,0.8075375
+no,bigrams,0.826
+no,unigrams+bigrams,0.832575
+yes,unigrams,0.806725
+yes,bigrams,0.7849
+yes,unigrams+bigrams,0.823825
