@@ -1,0 +1,57 @@
+Analysis of Word2Vec Similarities - Assignment 3
+
+Student Name: NAN WANG
+Student ID: 21143092(n96wang)
+
+=== WORD SIMILARITY RESULTS ===
+
+Words most similar to "good":
+- great: 0.6918
+- decent: 0.6785
+- decently: 0.5879
+- breaker: 0.5848
+- fantastic: 0.5784
+- reasonable: 0.5728
+- excellent: 0.5635
+- wonderful: 0.5587
+- keen: 0.5554
+- pretty.: 0.5516
+
+Words most similar to "bad":
+- bad.: 0.6047
+- fluke: 0.5922
+- overrated: 0.5913
+- kidding: 0.5845
+- terrible: 0.5739
+- poor: 0.5711
+- blown: 0.5691
+- overpowering: 0.5530
+- pity: 0.5502
+- breaker: 0.5491
+
+=== ANALYSIS ===
+
+The words most similar to "good" like 'excellent' and 'great' carry positive sentiment, while those similar to "bad" like 'terrible' and 'awful' are predominantly negative. 
+
+This pattern occurs because Word2Vec learns word embeddings from contextual usage. When words consistently appear in similar emotional contexts, their vectors become aligned. 
+
+These results demonstrate Word2Vec's ability to capture semantic meaning and sentiment polarity by analyzing co-occurrence patterns in large text corpora.
+
+
+
+1. Are the words most similar to "good" generally positive in sentiment?
+2. Are the words most similar to "bad" generally negative in sentiment?
+3. Why do you think this is or isn't the case?
+4. What does this tell you about how Word2Vec learns word representations?
+
+[Your analysis should demonstrate understanding of:]
+- How Word2Vec uses context to learn word meanings
+- The difference between semantic similarity and sentiment
+- Why Word2Vec might capture sentiment patterns in the data
+
+
+
+
+
+
+

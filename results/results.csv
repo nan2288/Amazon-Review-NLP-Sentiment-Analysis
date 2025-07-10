@@ -1,7 +1,4 @@
-Stopwords removed,text features,Accuracy (test set)
-no,unigrams,0.8075375
-no,bigrams,0.826
-no,unigrams+bigrams,0.832575
-yes,unigrams,0.806725
-yes,bigrams,0.7849
-yes,unigrams+bigrams,0.823825
+Activation Function,L2 Regularization,Dropout Rate,Validation Accuracy,Test Accuracy
+relu,0.001,0.3,0.74535,0.74635
+sigmoid,0.001,0.3,0.73625,0.720325
+tanh,0.001,0.3,0.7415625,0.741125
